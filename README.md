@@ -34,4 +34,26 @@ python plot_test_data.py
 python generate_test_json.py
 ```
 
-### Generating 
+### Generating downsample test data
+
+```bash
+cd test_true_peak_24
+python plot_test_data.py
+python generate_test_json.py
+```
+
+### Generating test data with peak detection algorithm
+
+```bash
+cd test_detect_peak_128
+python plot_test_data.py
+python generate_test_json.py
+```
+
+### Generating downsample test data with peak detection algorithm
+
+```bash
+cd test_detect_peak_24
+python plot_test_data.py
+python generate_test_json.py
+```
